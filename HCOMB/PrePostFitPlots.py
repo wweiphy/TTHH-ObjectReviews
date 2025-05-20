@@ -37,19 +37,57 @@ latex_dict["total"]="Total s+b"
 latex_dict["data"]="data"
 
 channel_bin = {}
-channel_bin['ch1'] = [0, 0.19, 0.23, 0.25,0.27, 0.285, 0.3, 0.33, 0.55]
-channel_bin['ch2'] = [0, 0.18, 0.20, 0.22, 0.24, 0.255, 0.265, 0.28, 0.30, 0.32, 0.45]
-channel_bin['ch3'] = [0, 0.18, 0.2,0.21, 0.23, 0.24, 0.25, 0.26, 0.45]
-channel_bin['ch4'] = [0, 0.19, 0.22, 0.245, 0.29, 0.54]
-channel_bin['ch5'] = [0, 0.18, 0.19,0.20, 0.21, 0.22, 0.235, 0.25, 0.45]
-channel_bin['ch6'] = [0, 0.19, 0.22, 0.24, 0.25, 0.26, 0.28, 0.30, 0.34, 0.36, 0.7]
+
+# CR binnings
+
+# # for 2018
+# channel_bin['ch1'] = [0, 0.2, 0.22, 0.24,0.26, 0.28]
+# channel_bin['ch2'] = [0.26,0.28, 0.30,0.32, 0.34, 1.0]
+# channel_bin['ch3'] = [0, 0.16, 0.18, 0.20, 0.22, 0.24]
+# channel_bin['ch4'] = [0.26, 0.28, 0.30, 0.32, 0.34, 1.0]
+# channel_bin['ch5'] = [0, 0.16, 0.18, 0.20, 0.22, 0.24]
+# channel_bin['ch6'] = [0.6, 0.7, 0.8, 0.9, 1.0]
+
+
+
+# # for 2018
+
+channel_bin['ch1'] = [0, 0.2, 0.24, 0.28, 0.32, 0.36, 1.0]
+channel_bin['ch2'] = [0, 0.18, 0.22, 0.26, 0.30, 0.34, 1.0]
+channel_bin['ch3'] = [0, 1.0]
+channel_bin['ch4'] = [0, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+
+
+# channel_bin['ch1'] = [0, 0.2, 0.22, 0.24,0.26, 0.28, 0.30, 0.32, 0.34, 1.0]
+# channel_bin['ch2'] = [0, 0.18, 0.20, 0.22, 0.24, 0.26,0.28, 0.30, 0.32, 0.34, 1.0]
+# channel_bin['ch3'] = [0, 0.16, 0.18, 0.20, 0.22, 0.24, 0.26, 0.28, 0.30, 1.0]
+# channel_bin['ch4'] = [0, 0.20, 0.22, 0.24, 0.26, 0.28, 0.30, 0.32, 0.34, 1.0]
+# channel_bin['ch5'] = [0, 0.16, 0.18, 0.20, 0.22, 0.24, 0.26, 0.28, 0.28, 0.32, 1.0]
+# channel_bin['ch6'] = [0, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+
+# # for 2017
+# channel_bin['ch1'] = [0, 0.2, 0.22, 0.24,0.26, 0.28, 0.30, 0.32, 0.34, 1.0]
+# channel_bin['ch2'] = [0, 0.18, 0.20, 0.22, 0.24, 0.26,0.28, 0.30, 0.32, 0.34, 1.0]
+# channel_bin['ch3'] = [0, 0.16, 0.18, 0.20, 0.22, 0.24, 0.26, 0.28, 0.30, 1.0]
+# channel_bin['ch4'] = [0, 0.20, 0.22, 0.24, 0.26, 0.28, 0.30, 0.32, 0.34, 1.0]
+# channel_bin['ch5'] = [0, 0.16, 0.18, 0.20, 0.22, 0.24, 0.26, 0.28, 0.28, 0.32, 1.0]
+# channel_bin['ch6'] = [0, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+                        
+
 # for 2016
-channel_bin['ch7'] = [0, 0.19, 0.23, 0.25,0.27, 0.285, 0.3, 0.33, 0.55]
-channel_bin['ch8'] = [0, 0.18, 0.20, 0.22, 0.24, 0.255, 0.265, 0.28, 0.30, 0.32, 0.45]
-channel_bin['ch9'] = [0, 0.18, 0.2,0.21, 0.23, 0.24, 0.25, 0.26, 0.45]
-channel_bin['ch10'] = [0, 0.19, 0.22, 0.245, 0.29, 0.54]
-channel_bin['ch11'] = [0, 0.18, 0.19,0.20, 0.21, 0.22, 0.235, 0.25, 0.45]
-channel_bin['ch12'] = [0, 0.19, 0.22, 0.24, 0.25, 0.26, 0.28, 0.30, 0.34, 0.36, 0.7]
+# channel_bin['ch1'] = [0, 0.2, 0.22, 0.24,0.26, 0.28, 0.30, 0.32, 0.34, 1.0]
+# channel_bin['ch2'] = [0, 0.18, 0.20, 0.22, 0.24, 0.26,0.28, 0.30, 0.32, 0.34, 1.0]
+# channel_bin['ch3'] = [0, 0.16, 0.18, 0.20, 0.22, 0.24, 0.26, 0.28, 0.30, 1.0]
+# channel_bin['ch4'] = [0, 0.20, 0.22, 0.24, 0.26, 0.28, 0.30, 0.32, 0.34, 1.0]
+# channel_bin['ch5'] = [0, 0.16, 0.18, 0.20, 0.22, 0.24, 0.26, 0.28, 0.28, 0.32, 1.0]
+# channel_bin['ch6'] = [0, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+
+# channel_bin['ch7'] = [0, 0.19, 0.22, 0.245, 0.265, 0.285, 0.30, 0.33, 0.55]
+# channel_bin['ch8'] = [0, 0.17, 0.19, 0.21, 0.23, 0.25, 0.27, 0.29, 0.31, 0.34, 0.45]
+# channel_bin['ch9'] = [0, 0.155,0.185, 0.20, 0.215, 0.23, 0.25, 0.45]
+# channel_bin['ch10'] = [0, 0.19, 0.22, 0.25, 0.27, 0.295, 0.335, 0.54]
+# channel_bin['ch11'] = [0, 0.16, 0.185, 0.20, 0.21, 0.225, 0.235, 0.25, 0.27, 0.45]
+# channel_bin['ch12'] = [0, 0.19, 0.21, 0.22,0.235, 0.26, 0.275, 0.295, 0.32, 0.35, 0.37, 0.4, 0.44, 0.49, 0.7]
 
 def ColorizeHistograms(processes_histos_dict):
     for process in processes_histos_dict:
@@ -125,6 +163,7 @@ def GetHistosForCategoriesProcesses(directory,categories_processes_dict):
             else:
                 # drop the unnecessary bins and save the resulting histo in the dictionary
                 dictt[cat][process] = GetHistoWithoutZeroBins(histo,cat,nbins, new_bins)
+        print(categories_processes_dict[cat])
     return dictt
 
 #starting from the rigth side of the histogram, finds the bin number where the first time the bin content is smaller than 0.1*** 
@@ -142,7 +181,8 @@ def FindNewBinNumber(histo):
 # drops all bins in a histogram with binnumber > nbins_new and returns it as a new histogram*** 
 def GetHistoWithoutZeroBins(histo_old,category,nbins_new_, new_bins):
     nbins_old = histo_old.GetNbinsX()
-    nbins_new = nbins_new_
+    nbins_new = len(new_bins) - 1
+    # nbins_new = nbins_new_
     new_bin_range = array('d', new_bins)
     # add category to name of histogram so each histogram has a different name to avoid problems with ROOT
     histo_new = ROOT.TH1F(histo_old.GetName()+"_"+category, histo_old.GetTitle(),nbins_new,new_bin_range)
@@ -156,12 +196,15 @@ def GetHistoWithoutZeroBins(histo_old,category,nbins_new_, new_bins):
 # converts the TGraphAsymmError data object in the mlfit file to a histogram (therby dropping bins again) and in addition sets asymmetric errors***
 def GetHistoFromTGraphAE(tgraph,category,nbins_new_, new_bins):
     nbins_old = tgraph.GetN()
-    nbins_new = nbins_new_
+    # print('old bins: ', nbins_old)
+    nbins_new = len(new_bins) - 1
+    # print('new bins: ', nbins_new)
     new_bin_range = array('d', new_bins)
     # add category to name of histogram so each histogram has a different name to avoid problems with ROOT
     histo = ROOT.TH1F("data_"+category,"data",nbins_new,new_bin_range)
     # set this flag for asymmetric errors in data histogram
-    histo.Sumw2(ROOT.kFALSE)
+    histo.Sumw2()
+    # histo.Sumw2(ROOT.kFALSE)
     # loop has to go from 0..nbins_new-1 for a tgraphasymmerror with nbins_new points
     for i in range(0,nbins_new,1):
         # first point (point 0) in tgraphae corresponds to first bin (bin 1 (0..1)) in histogram
@@ -171,7 +214,8 @@ def GetHistoFromTGraphAE(tgraph,category,nbins_new_, new_bins):
             # histo.Fill(i+0.5)
             histo.Fill(bin_val)
     # set this flag for calculation of asymmetric errors in data histogram
-    histo.SetBinErrorOption(ROOT.TH1.kPoisson)
+    # histo.SetBinErrorOption(ROOT.TH1.kGaussian)
+    # histo.SetBinErrorOption(ROOT.TH1.kPoisson)
     return histo
 
 # provided a mlfitfile and a directory in this file, this function returns the dict["ch1"]["ttbarOther"]->corresponding histogram dictionary***
@@ -221,18 +265,34 @@ def GetErrorGraph(histo):
     return error_graph
 
 def GetRatioHisto(nominator,denominator, category):
-    ratio = ROOT.TGraphAsymmErrors(nominator.Clone())
+    # print('category: ', category)
+
+    # # check nominator bin edges
+    # print('check bin edges: ')
+    # nbins = denominator.GetNbinsX()
+    # bin_edges = [denominator.GetXaxis().GetBinLowEdge(i) for i in range(1, nbins + 2)]
+    # print("Bin edges:", bin_edges)
+
+    ratio = ROOT.TGraphAsymmErrors(denominator.Clone())
     new_bins = channel_bin[category]
-    for i in range(1,nominator.GetNbinsX()+1,1):
+
+    # print(new_bins)
+    for i in range(1,denominator.GetNbinsX()+1,1):
         pos = (new_bins[i-1]+new_bins[i])/2
-        ratio.SetPoint(i-1,pos,nominator.GetBinContent(i)/denominator.GetBinContent(i))
-        ratio.SetPointError(i-1,0.,0.,(nominator.GetBinErrorLow(i))/denominator.GetBinContent(i),(nominator.GetBinErrorUp(i))/denominator.GetBinContent(i))
+        # print('position: ', pos)
+        if denominator.GetBinContent(i) == 0:
+            ratio.SetPoint(i-1,pos,0)
+            ratio.SetPointError(i-1,0.,0.,0)
+        else:
+            ratio.SetPoint(i-1,pos,nominator.GetBinContent(i)/denominator.GetBinContent(i))
+            ratio.SetPointError(i-1,0.,0.,(nominator.GetBinErrorLow(i))/denominator.GetBinContent(i),(nominator.GetBinErrorUp(i))/denominator.GetBinContent(i))
 
         # ratio.SetPoint(i-1,i-1+0.5,nominator.GetBinContent(i)/denominator.GetBinContent(i))
         # ratio.SetPointError(i-1,0.,0.,(nominator.GetBinErrorLow(i))/denominator.GetBinContent(i),(nominator.GetBinErrorUp(i))/denominator.GetBinContent(i))
+
     ratio.SetMarkerStyle(20)
     ratio.GetYaxis().SetRangeUser(0.00,1.99)
-    # ratio.GetXaxis().SetLimits(0,nominator.GetNbinsX())
+    ratio.GetXaxis().SetLimits(new_bins[0],new_bins[-1])
     ratio.SetTitle("")
     ratio.GetYaxis().SetLabelFont(43)
     ratio.GetYaxis().SetLabelSize(18)
@@ -242,19 +302,27 @@ def GetRatioHisto(nominator,denominator, category):
     ratio.GetYaxis().SetTitleOffset(2.0)
     ratio.GetYaxis().SetTitleFont(43)
     ratio.GetYaxis().SetTitleSize(18)
-    ratio.GetXaxis().SetTitle("Bin number")
+    ratio.GetXaxis().SetTitle("Final discriminator")
     ratio.GetXaxis().SetTitleOffset(3.0)
     ratio.GetXaxis().SetTitleFont(43)
     ratio.GetXaxis().SetTitleSize(18)
     ratio.GetYaxis().CenterTitle()
     return ratio
 
-def GetRatioErrorGraph(error_graph):
+def GetRatioErrorGraph(error_graph, category):
     ratio_error_graph = error_graph.Clone()
+    new_bins = channel_bin[category]
+    new_bin_range = array('d', new_bins)
     for i in range(0,error_graph.GetN(),1):
-        ratio_error_graph.SetPoint(i,i+0.5,1)
-        ratio_error_graph.SetPointEYhigh(i,error_graph.GetErrorYhigh(i)/error_graph.GetY()[i])
-        ratio_error_graph.SetPointEYlow(i,error_graph.GetErrorYlow(i)/error_graph.GetY()[i])
+        bin_val = (new_bin_range[i] + new_bin_range[i+1])/2
+        ratio_error_graph.SetPoint(i,bin_val,1)
+        # ratio_error_graph.SetPoint(i,i+0.5,1)
+        if error_graph.GetY()[i] == 0:
+            ratio_error_graph.SetPointEYhigh(i,0)
+            ratio_error_graph.SetPointEYlow(i,0)
+        else:
+            ratio_error_graph.SetPointEYhigh(i,error_graph.GetErrorYhigh(i)/error_graph.GetY()[i])
+            ratio_error_graph.SetPointEYlow(i,error_graph.GetErrorYlow(i)/error_graph.GetY()[i])
     return ratio_error_graph
     
 
@@ -274,9 +342,9 @@ def GetCMSandInfoLabels():
     cms.SetTextSize(18)
     cms.SetNDC()
     # info = ROOT.TLatex(0.7, 0.92, '137.6 fb^{-1},  #sqrt{s} = 13 TeV'  )
-    info = ROOT.TLatex(0.7, 0.92, '36.31 fb^{-1},  #sqrt{s} = 13 TeV'  )
+    info = ROOT.TLatex(0.7, 0.92, '36.33 fb^{-1},  #sqrt{s} = 13 TeV'  )
     # info = ROOT.TLatex(0.7, 0.92, '41.53 fb^{-1},  #sqrt{s} = 13 TeV'  )
-    # info = ROOT.TLatex(0.7, 0.92, '59.74.6 fb^{-1},  #sqrt{s} = 13 TeV'  )
+    # info = ROOT.TLatex(0.7, 0.92, '59.83 fb^{-1},  #sqrt{s} = 13 TeV'  )
     info.SetTextFont(43)
     info.SetTextSize(18)
     info.SetNDC()
@@ -295,9 +363,9 @@ def GetCatLabel(cat,prepostfitflag):
         dnn_node += " DNN-node"
         dnn_node = dnn_node.replace("_","+")
         dnn_node = dnn_node.replace("ttH+bb","ttH")
-    print (dnn_node)
+    # print (dnn_node)
     help_array = cat.split("_")
-    print (help_array)
+    # print (help_array)
     jets = ""
     btags = ""
     jets_relation = ""
@@ -324,8 +392,8 @@ def GetCatLabel(cat,prepostfitflag):
                         btags_relation = "="
         if jets!="" and btags!="":
             break
-    print (jets_relation,jets)
-    print (btags_relation,btags)
+    # print (jets_relation,jets)
+    # print (btags_relation,btags)
     cat = help_array[0]+", #jets "+jets_relation+" 5 , #btags "+btags_relation+" 4, "
     if dnn_node!="":
         cat+=dnn_node 
@@ -371,7 +439,7 @@ def GetPlots(categories_processes_histos_dict,category,prepostfitflag):
     data = GetDataHistogram(processes_histos_dict)
         
     if data!=None:
-        legend.AddEntry(data,"Asimov s+b","p")
+        legend.AddEntry(data,"Data","p")
         
     if signal!=None:
         # if prepostfitflag !="shapes_fit_s": 
@@ -404,7 +472,7 @@ def GetPlots(categories_processes_histos_dict,category,prepostfitflag):
     # from total background or total background+signal prediction histogram in mlfit file, get the error band
     error_graph = GetErrorGraph(background)
     
-    ratio_error_graph = GetRatioErrorGraph(error_graph)
+    ratio_error_graph = GetRatioErrorGraph(error_graph, category)
     
     # everything should fit in the plots 
     stack.SetMaximum(error_graph.GetHistogram().GetMaximum()*1.0)
@@ -468,8 +536,10 @@ def Plot(fitfile_,ch_cat_dict_,prepostfitflag):
             ratio_line.Draw("same")
             ratio_error_band.Draw("2same")
         
-        canvas.Print(dir_+"_"+channel+"_"+ch_cat_dict_[channel]+".pdf")
-        canvas.Print(dir_+"_"+channel+"_"+ch_cat_dict_[channel]+".png")
+        canvas.Print(dir_+"_"+ch_cat_dict_[channel]+".pdf")
+        canvas.Print(dir_+"_"+ch_cat_dict_[channel]+".png")
+        # canvas.Print(dir_+"_"+channel+"_"+ch_cat_dict_[channel]+".pdf")
+        # canvas.Print(dir_+"_"+channel+"_"+ch_cat_dict_[channel]+".png")
     
     fitfile.Close()
     
@@ -488,7 +558,7 @@ def ReadDatacard(datacard):
                     if not element=='' and not element=='*' and not "$SYSTEMATIC" in element and ("ch" in element or "$PROCESS" in element):
                         modified_line_array.append(element)
                 buzzwords_in_relevant_lines.append(modified_line_array)
-    print(buzzwords_in_relevant_lines)
+    # print(buzzwords_in_relevant_lines)
     channel_category_dict = {}
     for relevant_line in buzzwords_in_relevant_lines:
         channel = ""
@@ -499,7 +569,7 @@ def ReadDatacard(datacard):
             if "$PROCESS" in buzzword:
                 category = buzzword.replace("$PROCESS","").replace("/","").replace("_finaldiscr_","")
         channel_category_dict[channel] = category
-    print(channel_category_dict)
+    # print(channel_category_dict)
     #channel_category_dict = {}
     return channel_category_dict
     
@@ -508,7 +578,7 @@ def ReadDatacard(datacard):
 
 def main(fitfile_,datacard_):
     
-    print(datacard_)
+    # print(datacard_)
     ch_cat_dict = ReadDatacard(datacard_)
     # print('channel')
     # print(ch_cat_dict)
@@ -526,5 +596,12 @@ def main(fitfile_,datacard_):
 if __name__ == "__main__":
     main(sys.argv[1],sys.argv[2])
         
+# 2016
+# usage: python PrePostFitPlots.py /work/SM_TTHH/Summer20UL/EL8/Fit/CMSSW_12_3_4/src/HiggsAnalysis/CombinedLimit/ttHHRun2-250428-JESJER-shape-checkJESJERbtaghf/2016/new_full_change_ttbar_QCDPDF/fitDiagnosticsTest.root /work/SM_TTHH/Summer20UL/EL8/Fit/CMSSW_12_3_4/src/HiggsAnalysis/CombinedLimit/ttHHRun2-250428-JESJER-shape-checkJESJERbtaghf/2016/new_full_change_ttbar_QCDPDF/card.txt
 
-# usage: python PrePostFitPlots.py mlfitfile.root corresponding_datacard.txt
+
+# 2017
+# usage: python PrePostFitPlots.py /work/SM_TTHH/Summer20UL/EL8/Fit/CMSSW_12_3_4/src/HiggsAnalysis/CombinedLimit/ttHHRun2-250428-JESJER-shape-checkJESJERbtaghf/2017/new_full_change_ttbar_QCDPDF/fitDiagnosticsTest.root /work/SM_TTHH/Summer20UL/EL8/Fit/CMSSW_12_3_4/src/HiggsAnalysis/CombinedLimit/ttHHRun2-250428-JESJER-shape-checkJESJERbtaghf/2017/new_full_change_ttbar_QCDPDF/card.txt
+
+# 2018
+# usage: python PrePostFitPlots.py /work/SM_TTHH/Summer20UL/EL8/Fit/CMSSW_12_3_4/src/HiggsAnalysis/CombinedLimit/ttHHRun2-250428-JESJER-shape-checkJESJERbtaghf/2018/new_full_change_ttbar_QCDPDF/fitDiagnosticsTest.root /work/SM_TTHH/Summer20UL/EL8/Fit/CMSSW_12_3_4/src/HiggsAnalysis/CombinedLimit/ttHHRun2-250428-JESJER-shape-checkJESJERbtaghf/2018/new_full_change_ttbar_QCDPDF/card.txt
